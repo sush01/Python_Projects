@@ -11,11 +11,11 @@ word_to_guess = random.choice(wordList)
 
 letter_guessed =''
 guessed_word = ['_']*len(word_to_guess)
-chances = 7
+chances = 5
 
 
 print("\nWelcome to the word guessing game!")
-print(f"Hint:word is a name of wild animal.It is {len(word_to_guess)} letter word" )
+print(f"Hint:word is a name of wild animal.\nIt is {len(word_to_guess)} letter word and number of Attempts is {chances}" )
 
 while chances > 0 and '_' in guessed_word:
   #print the current word to be guessed 

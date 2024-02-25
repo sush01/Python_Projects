@@ -1,4 +1,4 @@
-# This file contains projects done during the python programming trainning.
+# This file contains projects done during the python programming training.
 
 ## List of Program names:
 1. Hangman
@@ -16,17 +16,16 @@
 #### Implementation Details
 *  The game randomly selects a word from a predefined list, and the player attempts to guess the word by entering letters one at a time. 
 
+* The program display hint,length of the word, no of attempts.
+
 * The player has limited number of attempts before the game ends.
 
-* The program display hint and length of the word.
-
 * The program displays the current state of the word, hiding unguessed letters with underscores. 
-
-* The game starts by selecting a random word from a predefined list.
-
-* Players enter letters one at a time to guess the word. 
-
+ 
 * The game continues until the player correctly guesses the word or exceeds the maximum allowed incorrect attempts.
+
+* When out of attempts the program display the word to guessed.
+
 
 ### Password Generator  (pwdgenerator.py)
 #### Implementation Details
